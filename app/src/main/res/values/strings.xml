@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Demos</string>
+    <string name="scale_down_show_behavior">com.example.administrator.demos.behavior.ScaleDownShowBehavior</string>
+</resources>
