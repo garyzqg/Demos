@@ -15,9 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ZhihuActivity"
-                  android:label="仿知乎滑动隐藏">
-        </activity>
+        <activity
+            android:name=".ZhihuActivity"
+            android:label="仿知乎滑动隐藏" />
+        <activity android:name=".ElemeSearchActivity" />
+        <activity android:name=".SearchActivity"></activity>
     </application>
 
 </manifest>

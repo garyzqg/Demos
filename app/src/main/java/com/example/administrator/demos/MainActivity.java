@@ -10,9 +10,10 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity {
-    @BindView(R.id.menu_btn)
+    @BindView(R.id.menu_btn01)
     Button menuZhihu;
-
+    @BindView(R.id.menu_btn02)
+    Button menuElemeSearch;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,6 +27,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,ZhihuActivity.class);
+                startActivity(intent);
+            }
+        });
+        menuElemeSearch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               Intent intent = new Intent(MainActivity.this,ElemeSearchActivity.class);
                 startActivity(intent);
             }
         });

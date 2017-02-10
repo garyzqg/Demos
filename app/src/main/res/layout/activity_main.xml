@@ -7,13 +7,24 @@
     tools:context="com.example.administrator.demos.MainActivity">
 
     <Button
-        android:id="@+id/menu_btn"
+        android:id="@+id/menu_btn01"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:padding="10dp"
         android:layout_marginTop="20dp"
         android:text="仿知乎首页"
+        android:textSize="20sp"
+        android:background="#cccccc"/>
+    <Button
+        android:id="@+id/menu_btn02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_below="@+id/menu_btn01"
+        android:layout_marginTop="20dp"
+        android:text="仿饿了么搜索栏平滑过渡"
         android:textSize="20sp"
         android:background="#cccccc"/>
 </RelativeLayout>
