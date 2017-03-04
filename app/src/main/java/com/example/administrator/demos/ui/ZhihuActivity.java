@@ -1,4 +1,4 @@
-package com.example.administrator.demos;
+package com.example.administrator.demos.ui;
 
 import android.os.Bundle;
 import android.support.design.widget.BottomSheetBehavior;
@@ -11,6 +11,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.example.administrator.demos.R;
 import com.example.administrator.demos.adapter.ListRecyclerAdapter;
 import com.example.administrator.demos.behavior.ScaleDownShowBehavior;
 

@@ -16,10 +16,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ZhihuActivity"
+            android:name=".ui.ZhihuActivity"
             android:label="仿知乎滑动隐藏" />
-        <activity android:name=".ElemeSearchActivity" />
-        <activity android:name=".SearchActivity"></activity>
+        <activity android:name=".ui.ElemeSearchActivity" />
+        <activity android:name=".ui.SearchActivity" />
+        <activity android:name=".ui.BezierActivity"></activity>
     </application>
 
 </manifest>

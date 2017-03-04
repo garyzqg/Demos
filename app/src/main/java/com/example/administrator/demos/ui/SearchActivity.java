@@ -1,4 +1,4 @@
-package com.example.administrator.demos;
+package com.example.administrator.demos.ui;
 
 import android.animation.Animator;
 import android.animation.ValueAnimator;
@@ -10,6 +10,8 @@ import android.view.ViewTreeObserver;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.administrator.demos.R;
 
 public class SearchActivity extends AppCompatActivity {
     private TextView mSearchBGTxt;

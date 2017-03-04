@@ -1,10 +1,12 @@
-package com.example.administrator.demos;
+package com.example.administrator.demos.ui;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+
+import com.example.administrator.demos.R;
 
 public class ElemeSearchActivity extends AppCompatActivity {
     private TextView mSearchBGTxt;
